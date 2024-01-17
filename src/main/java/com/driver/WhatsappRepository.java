@@ -99,7 +99,7 @@ public class WhatsappRepository {
             throw new Exception("User is not a participant");
         }
         adminMap.put(group,approver);
-        return "SUCCES";
+        return "SUCCESS";
     }
     public int removeUser(User user) throws Exception
     {
